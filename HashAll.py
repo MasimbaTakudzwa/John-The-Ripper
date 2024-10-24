@@ -14,7 +14,7 @@ def main():
     parser.add_argument('--hash_types', nargs='+', default=["md5", "sha1", "sha256", "sha512", "bcrypt", "pbkdf2"],
                         help="Hash types to apply (e.g., md5 sha1 sha256)")
 
-    parser.add_argument('--output_directory', default="C:/Users/chris/PycharmProjects/HashPassword/Hashed_Passwords")    # Parse the arguments
+    parser.add_argument('--output_directory', default="")    # Parse the arguments
     args = parser.parse_args()
 
     # Check if the directory exists
